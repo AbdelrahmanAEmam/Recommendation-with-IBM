@@ -26,7 +26,7 @@ In order to run this project locally on your machine, you should've the followin
 ## Installation
 Let's start first with installing the required libraries:
 
-<code>python -m pip install --user numpy pandas nltk SQLAlchemy scikit-learn</code>
+<code>python -m pip install --user numpy pandas matplotlib</code>
 
 For more installation options for Windows/Mac check the hyperlinks provided in the **previous** section.
 
