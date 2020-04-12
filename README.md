@@ -40,13 +40,17 @@ import numpy
 import pandas
 import matplotlib
 ```
-Now the code is ready to run the code on your **local** machine.
+### Now you are ready to run the code on your local machine (if needed)...
 
+- Get the datasets from the [IBM Watson Studion platform](https://www.ibm.com/eg-en/cloud/watson-studio)
+- Clone the repo using: git clone https://github.com/AbdelrahmanAEmam/Recommendations-with-IBM.git
+- Set the directories locations to be compatible with your datasets location
+- Go to the repo location cd path/to/repo
+- Finally, open Recommendations_with_IBM.ipynb (for best practice use jupyter notebook)
 
 ## Deployment
 This code is tested on dataset provided by [IBM Watson Studio](https://www.ibm.com/eg-en/cloud/watson-studio).
 In order to deploy this code on your own dataset, your data should follow the format of the given datasets.
-
 
 ### How the code works
 
@@ -73,11 +77,6 @@ Now our recommendations would be more personal for the users.
 Using a machine learning approach to building recommendations. Using the user-item interactions,
 we will be building out a matrix decomposition. Using this decomposition, so we will get an insight of
 how well we can predict new articles.
-
-### How to use the notebook on our local machine
-
-1. Get the datasets from the [IBM Watson Studion platform](https://www.ibm.com/eg-en/cloud/watson-studio)
-2. For better experience use [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html)
 
 ## Acknowledgments
 - [Udacity Data Science Nanodegree Program](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
